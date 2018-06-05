@@ -1,0 +1,17 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Movies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{ user.userID }}</td>
+      <td>{{ user.id }}</td>
+      <td>{{ user.title }}</td>
+      <td>{{ user.body }}</td>
+    </tr>
+  </tbody>
+</table>
